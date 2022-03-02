@@ -6,7 +6,7 @@ module.exports = {
   mode: 'development',
   output: {
     path: __dirname + '/dist',
-    filename: 'bundle.js'
+    filename: 'main.js'
   },
   devServer: {
     static: path.join(__dirname, 'dist'),
